@@ -1,7 +1,7 @@
-@charset "utf-8"
+@charset "UTF-8";
 
 html {
-    font-size: 100%
+    font-size: 100%;
 }
 body {
     color: #707070;
@@ -21,11 +21,18 @@ a {
 a:hover {
     opacity: 0.7;
 }
+
 .wrapper {
 max-width: 1000px;
 padding: 0 20px;
 margin: 0 auto;
 }
+
+/*-------------------------------------------------
+
+Header
+
+-------------------------------------------------*/
 
 #header {
     display: flex;
@@ -49,6 +56,34 @@ margin: 0 auto;
     font-size: 14px;
     margin-left: 40px;
 }
+
+/*------------------------------------------------
+
+MainVisual
+
+------------------------------------------------*/
+
+.mainvisual {
+    margin-bottom: 50px;
+}
+
+/*------------------------------------------------
+
+introduction
+
+------------------------------------------------*/
+.introduction {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  .introduction .catchphrase {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .introduction .text {
+    font-size: 14px;
+  }
 /*------------------------------------------------
 
 スマートフォン用
