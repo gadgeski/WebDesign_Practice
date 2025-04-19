@@ -28,6 +28,19 @@ padding: 0 20px;
 margin: 0 auto;
 }
 
+.section-title {
+    font-weight: normal;
+    margin-bottom: 40px;
+  }
+  .section-title .en {
+    display: block;
+    font-size: 40px;
+  }
+  .section-title .ja {
+    display: block;
+    font-size: 14px;
+  }
+
 /*-------------------------------------------------
 
 Header
@@ -64,7 +77,7 @@ MainVisual
 ------------------------------------------------*/
 
 .mainvisual {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 /*------------------------------------------------
@@ -84,6 +97,74 @@ introduction
   .introduction .text {
     font-size: 14px;
   }
+
+/*-------------------------------------------
+Profile
+-------------------------------------------*/
+#profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  #profile .img {
+    width: 50%;
+  }
+  #profile .detail {
+    width: 50%;
+    padding-left: 80px;
+  }
+  #profile .detail p {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+/*-------------------------------------------
+Profile
+-------------------------------------------*/
+#profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  #profile .img {
+    width: 50%;
+  }
+  #profile .detail {
+    width: 50%;
+    padding-left: 80px;
+  }
+  #profile .detail p {
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  /*-------------------------------------------
+  Works
+  -------------------------------------------*/
+  #works {
+    margin-bottom: 120px;
+  }
+  #works .works-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #works .works-list li {
+    width: 32%;
+    margin: 0 2% 2% 0;
+  }
+  #works .works-list li:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  /*-------------------------------------------
+  Footer
+  -------------------------------------------*/
+  #footer {
+    font-size: 12px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
 /*------------------------------------------------
 
 スマートフォン用
