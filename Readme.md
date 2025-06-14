@@ -1,2 +1,2 @@
-Beginner's HTML & CSS Writing Challenge
-・今後のアプリデザインに活かす
+目的：今後生成 AI 技術を取り入れる上での基本技術の習得
+使用技術： CSS/HTML
